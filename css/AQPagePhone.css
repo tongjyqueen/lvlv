@@ -1,0 +1,218 @@
+html {
+    font-size: 75px;
+}
+
+body{
+    background: #fbfbfb;
+    color:#7a7a7a;
+    font-size: 0.32rem;
+    font-family: 'lucida grande','lucida sans unicode',lucida,helvetica,'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei',sans-serif;
+}
+header {
+    padding: 0 0.4rem;
+    width: 9.2rem;
+    height: 1.33rem;
+    background: #fefefe;
+    color: #fff;
+}
+header h1 {
+    float: left;
+    height: 1.33rem;
+    text-align: center;
+}
+header h1 span{
+    color:#489af0;
+    display: inline-block;
+    height:100%;
+    line-height:1.5rem;
+    vertical-align:middle;
+    font-size:0.4rem;
+    font-weight:normal;
+}
+
+header h1 img {
+    width: 1.707rem;
+    height: .72rem;
+    vertical-align:middle;
+}
+
+header nav {
+    float: left;
+    width: 2.907rem;
+    height: .4rem;
+    line-height: .4rem;
+    margin: .467rem .133rem;
+}
+header nav a {
+    float: left;
+    font-size:.347rem;
+    padding: 0 0.32rem;
+    color:#fff;
+}
+header nav span {
+    float:left;
+    font-size:.293rem;
+    color:#76b3f4;
+}
+header div {
+    float: right;
+    padding: .467rem 0 0 0;
+    height: .467rem;
+    line-height: .467rem;
+}
+header div img {
+    float: left;
+    width:.267rem;
+    height:.453rem;
+    margin: 0 .187rem 0 1.107rem;
+}
+header div a {
+    color:#489af0;
+    font-size:0.4rem;
+}
+div.line{
+    height:1px;
+    background: #dcdcdc;
+}
+div.container{
+    color:#5b5b5b;
+    padding:0 .4rem;
+}
+div.container h3{
+    line-height: .72rem;
+    margin-bottom:-0.25rem;
+    font-size:.5rem;
+    font-weight:bold;
+    padding:.56rem 0;
+}
+div.container .detail{
+    font-size:0.42rem;
+    line-height: .62rem;
+    color:#7a7a7a;
+    text-align:justify;
+}
+div.container .reportBox{
+    margin:.4rem 0 .533rem 0;
+    height:.32rem;
+    color:#b5b5b5;
+}
+div.container .reportBox img{
+    float:left;
+    width:.293rem;
+    height:.32rem;
+    margin-right:.213rem;
+}
+div.container .reportBox span{
+    float:left;
+    height:.32rem;
+}
+div.container h2.answerTitle{
+    height:1.497rem;
+    line-height:1.497rem;
+    border-top:1px solid #e6e6e6;
+    font-size:.427rem;
+    font-weight: bold;
+    margin-top:0.533rem;
+}
+div.container h2 strong{
+    margin-right:.187rem;
+}
+
+.imgBox{
+  margin: 0.15rem 0;
+}
+.imgBox img{
+    width:100%;
+    /*height:3.306rem;*/
+}
+
+    footer{
+    padding-left:.4rem;
+    margin:.8rem 0;
+    height:.667rem;
+    line-height:.667rem;
+}
+footer .Attention{
+    float:left;
+    margin-right:.4rem;
+    width:2.293rem;
+    text-align: center;
+    color:#fff;
+    background:#80bd00;
+    outline:none;
+    border:none;
+}
+footer span{
+    float:left;
+}
+.hide{
+    display:none;
+}
+.show{
+    display: block;
+}
+#CoverLayer {
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background:#6c6666;
+    background:rgba(108,102,102,0.6);
+    font-size:0.48rem;
+    display:none;
+}
+#PromptBox {
+    position:absolute;
+    left:10%;
+    top:30%;
+    width:80%;
+    background:#fff;
+    border-radius: 6px 6px 6px 6px;
+    display:none;
+}
+#Friendship {
+    position:absolute;
+    left:0;
+    top:0;
+    width:90%;
+    height:0.25rem;
+    margin: -1px -1px 0;
+    padding: 0.25rem 5%;
+    line-height: 0.25rem;
+    background: #1D7FE2;
+    background: -webkit-linear-gradient(top,#1D7FE2,#0865C2);
+    background: linear-gradient(to bottom,#1D7FE2,#0865C2);
+    border: 1px solid #0D6EB8;
+    border-radius: 6px 6px 0 0;
+    box-shadow: 0 1px 0 rgba(255,255,255,.1) inset,0 1px 1px rgba(0,0,0,.2);
+    color:#fff;
+    font-size:0.25rem;
+}
+#Img {
+    position:absolute;
+    right:3%;
+    top:17%;
+    cursor:pointer;
+    width:0.6rem;
+    height:0.6rem;
+}
+#PromptBoxText {
+    font-weight:normal;
+    text-align:center;
+    padding-top:30%;
+    margin-bottom:20%;
+}
+#CoverLayer a{
+  float:left;
+  width:41%;
+  background:#489af0;
+  color:#fff;
+  margin-left:6%;
+  font-size:0.25rem;
+  padding:0.25rem 0;
+  height:0.25rem;
+  line-height: 0.25rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 0 rgba(255,255,255,.1) inset,0 1px 1px rgba(0,0,0,.2);
+}

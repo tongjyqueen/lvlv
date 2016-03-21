@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+    <style>
+        .loading{
+            position: fixed;
+            width:100%;
+            height:100%;
+            background: #fff;
+        }
+    </style>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/register.js"></script>
+</head>
+<body>
+<div class="loading">Loading...</div>
+
+<h1>注册律律</h1>
+<p class="title">专业的法律工具和社交平台 </p>
+<ul>
+    <li><img src="images/login_user.png" alt=""/><input type="text" placeholder="请输入邮箱/手机号" id="UserName"/></li>
+    <li><img src="images/register_phone.png" alt=""/><input type="text" placeholder="请输入验证码" id="authCode"/><span id="GetCode">获取验证码</span></li>
+    <li><img src="images/login_psd.png" alt=""/><input type="password" placeholder="密码为6-20位数字或字母" id="Password"/></li>
+    <li><img src="images/register_nickname.png" alt=""/><input type="text" placeholder="昵称" id="NickName"/></li>
+
+</ul>
+<h2 id="registerButton"><img src="images/register.gif" alt=""/></h2>
+<p class="foot">
+    点击[注册]按钮，代表你已阅读并同意
+</p>
+<footer>
+    <a href="javascript:;">律律协议</a>
+</footer>
+</body>
+</html>

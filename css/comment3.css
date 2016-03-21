@@ -1,0 +1,235 @@
+.commentBox {
+  position: relative;
+  overflow:visible;
+  width: 99%;
+  border-radius: 0.133rem;
+}
+.commentBox .commentListTooltip {
+  width: 100%;
+}
+.commentBox .commentListTooltip .cases {
+  position: relative;
+  width: 100%;
+  padding: .293rem 0;
+  overflow: hidden;
+  color: #7a7a7a;
+  border-top: 1px solid #e4e4e4;
+  margin: 0 auto;
+}
+.commentBox .commentListTooltip .cases .headPortrait {
+  float: left;
+  width: .667rem;
+  height: .667rem;
+  border-radius: 50%;
+}
+.commentBox .commentListTooltip .cases .headPortrait img{
+    width: .707rem;
+    height: .707rem;
+    border-radius: 50%;
+}
+.commentBox .commentListTooltip .cases .casesRight {
+
+}
+h2 {
+  margin:0.1rem 0;
+  height:.707rem;
+  line-height:.707rem;
+  font-size:.293rem;
+  font-weight: normal;
+  overflow: hidden;
+}
+ h2 a {
+  float:left;
+  font-size: .32rem;
+  color: #7ab6f4;
+  margin-left:0.24rem;
+}
+h2 img{
+    float:left;
+    width: .707rem;
+    height: .707rem;
+    border-radius: 50%;
+}
+.commentBox .commentListTooltip .cases span {
+  height: .32rem;
+  line-height: .293rem;
+  margin-bottom: 0.08rem;
+  margin-left: 0.093rem;
+}
+.commentBox .commentListTooltip .cases i {
+  color: #9c9c9c;
+}
+.commentBox .commentListTooltip .cases p {
+  line-height: 0.6rem;
+  font-size: .4rem;
+}
+.commentBox .commentListTooltip .cases p img{
+  width:95%;
+}
+.commentBox .commentListTooltip .cases .delete {
+  padding-left: 0.2rem;
+  width: 0.333rem;
+  background: url(../images/sprites.png) no-repeat -105px -48px;
+  margin-top: 0.133rem;
+  cursor: pointer;
+}
+.time{
+  width:1.497rem;
+  height:.32rem;
+  line-height: .293rem;
+  font-size: .32rem;
+  font-weight:normal;
+  color:#b7b7b7;
+  margin-left:.213rem;
+}
+div.container h3 {
+    padding: .37rem 0 0.29rem 0;
+}
+.imgBox{
+  margin: 0.15rem 0;
+}
+.imgBox img{
+    width:100%;
+    /*height:3.306rem;*/
+}
+.showAllComment{
+  width:100%;
+  height: .427rem;
+  line-height: .427rem;
+  text-align: center;
+  border-top:1px solid #e4e4e4; 
+  border-bottom:1px solid #e4e4e4;
+}
+.showAllComment a{
+  color:#63a6f4;
+}
+.userName{
+  color:#63a6f4;
+}
+.writeComment{
+  padding:0 .293rem;
+  /*height:1.8rem;*/
+    overflow:hidden;
+  margin-top:0.267rem;
+
+}
+
+.writeComment .writeCommentText{
+  display: block;
+  width:98%;
+  line-height: 0.553rem;
+  padding-left: 0.147rem;
+    font-size:.32rem;
+  outline: none;
+  border: 1px solid #d8d8d8;
+}
+.commentBottom{
+}
+.commentBottom input{
+  float:right;
+}
+.commentBottom .commentBtn{
+  float:right;
+  width:2.293rem;
+  height: .667rem;
+  line-height: .667rem;
+  text-align:center;
+  background: #499af3;
+  padding-left:0;
+  color:#fff;
+  cursor: pointer;
+  margin:0.373rem 0;
+  outline:none;
+  border:0;
+}
+footer {
+     padding-left: 0;
+
+}
+.noBorder{
+  border: none;
+}
+.noPadding{
+  padding: 0;
+}
+
+/* 外三角 */
+.arrowOut{
+    position: absolute;
+    left:0.267rem;
+    top:-0.173rem;
+    border-left: 0.173rem solid transparent;
+    border-right: 0.173rem solid transparent;
+    border-bottom: 0.173rem solid #ccc;
+}
+.arrowIn{
+    position: absolute;
+    left:0.267rem;
+    top:-0.16rem;
+    border-left: 0.173rem solid transparent;
+    border-right: 0.173rem solid transparent;
+    border-bottom: 0.173rem solid #fff;
+}
+#CoverLayer {
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background:#6c6666;
+    background:rgba(108,102,102,0.6);
+    font-size:0.48rem;
+    display:none;
+}
+#PromptBox {
+    position:absolute;
+    left:10%;
+    top:30%;
+    width:80%;
+    background:#fff;
+    border-radius: 6px 6px 6px 6px;
+    display:none;
+}
+#Friendship {
+    position:absolute;
+    left:0;
+    top:0;
+    width:90%;
+    height:16px;
+    margin: -1px -1px 0;
+    padding: 10px 5%;
+    line-height: 14px;
+    background: #1D7FE2;
+    background: -webkit-linear-gradient(top,#1D7FE2,#0865C2);
+    background: linear-gradient(to bottom,#1D7FE2,#0865C2);
+    border: 1px solid #0D6EB8;
+    border-radius: 6px 6px 0 0;
+    box-shadow: 0 1px 0 rgba(255,255,255,.1) inset,0 1px 1px rgba(0,0,0,.2);
+    color:#fff;
+    font-size:0.48rem;
+}
+#Img {
+    position:absolute;
+    right:3%;
+    top:17%;
+    cursor:pointer;
+}
+#PromptBoxText {
+    font-weight:normal;
+    text-align:center;
+    line-height:30px;
+    font-size:20px;
+    padding-top:30%;
+    margin-bottom:20%;
+}
+#CoverLayer a{
+  float:left;
+  width:41%;
+  background:#489af0;
+  color:#fff;
+  margin-left:6%;
+  font-size:0.32rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 0 rgba(255,255,255,.1) inset,0 1px 1px rgba(0,0,0,.2);
+}
+/*# sourceMappingURL=comment.css.map */

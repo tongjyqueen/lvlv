@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script>
+        var iScale = 1;
+        iScale = iScale / window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=' + iScale + ',minimum-scale=' + iScale + ',maximum-scale=' + iScale + '">')
+    </script>
+    <!--动态设置文字大小-->
+    <script>
+    
+        var iWidth = document.documentElement.clientWidth;
+        document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+    </script>
+
+    <!-- <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+
+    <title>评论页</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/AQPagePhone.css"/>
+    <link rel="stylesheet" type="text/css" href="css/AQleft2.css">
+    <link rel="stylesheet" type="text/css" href="css/comment3.css">
+    <!--<script src="js/touch.js"></script>-->
+    <script src="js/zepto.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/CommentsPage.js"></script>
+</head>
+<body>
+<header>
+    <h1><img src="images/222.png" alt=""/><span></span></h1>
+    <!--<nav><a href="login.html" target="_self">登录</a><span>|</span><a href="register.html" target="_self">注册</a></nav>-->
+    <div><img src="images/11.png" alt=""/><a href="javascript:;" target="_self" onclick="openApp()"  id="aOpenApp">打开应用
+    </a></div>
+</header>
+<div class="line"></div>
+<div class="container">
+
+    <h3>有哪些凭一己之力改变了游戏或体育竞赛规则的玩有哪些凭一己之力改变了游戏或体育竞赛规则的玩有哪些凭一己之力改变了游戏或体育竞赛规则的玩</h3>
+    <h2>
+        <img src="images/userimg.png" height="40" width="40" alt="">
+        <a href="javascript:;">床前明月光</a>
+                                                <span class="time">
+                                                    15.10.20 10:00
+                                                </span>
+    </h2>
+    <div class="imgBox"><img src="images/city.gif" alt=""/></div>
+    <div class="imgBox"><img src="images/IMG_0043.JPG" alt=""/></div>
+    <p class="detail">
+        新时期信息诈骗呈现出一些新的趋势：犯罪分子能够精准锁定被骗人群并有针对性地设计诈骗场景，诈骗成功几率更高；虚拟运营商通讯成为诈骗犯罪新阵地；被骗人群向“高知”人群转向，比如公检法类诈骗，被骗人群往往是“高知人群”，个案金额特别高，社会危害更为严重
+    </p>
+    <!--<div class="reportBox"><img src="images/report.gif" alt=""/><span>举报</span></div>-->
+    <h2 class="answerTitle"><strong id="CommentCount">2</strong>个评论</h2>
+
+    <div class="commentBox">
+        <ul class="commentListTooltip">
+            <li class="cases hide" id="CommentTemplateLi">
+                <div class="casesRight">
+                    <h2>
+                        <img src="images/userimg.png" height="41" width="42" alt="">
+                        <a href="javascript:;">窗前明月光</a>
+                                                <span class="time">
+                                                    16.2.2 10:00
+                                                </span>
+                    </h2>
+                    <p>你好嘿嘿嘿呵呵</p>
+                </div>
+            </li>
+            <li class="cases" id="CommentTemplateLi">
+                <div class="casesRight">
+                    <h2>
+                        <img src="images/userimg.png" height="40" width="40" alt="">
+                        <a href="javascript:;">床前明月光</a>
+                                                <span class="time">
+                                                    15.10.20 10:00
+                                                </span>
+                    </h2>
+                    <p>您好啊您好啊！您好啊！您好啊！您好啊！您好啊！您好啊！您好啊！您好啊！您好啊！您好啊！！~~~您好啊！</p>
+                </div>
+            </li>
+        </ul>
+
+</div>
+<div id="CoverLayer">
+    <div id="PromptBox">
+        <h2 id="Friendship">
+                    选择打开方式
+            <img src="images/X.png" id="Img" />
+        </h2>
+        <div id="PromptBoxText">
+          <a href="#" title="" id="yes">在律律中打开</a>
+          <a href="#" title="" id="no">下载律律，并打开</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

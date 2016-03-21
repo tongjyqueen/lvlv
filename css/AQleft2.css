@@ -1,0 +1,188 @@
+
+ .conttentBody{
+    width:100%;
+}
+  .news{
+    width:100%;
+    border-top:1px solid #DBDCDC;
+    padding:.373rem 0 .213rem 0;
+    overflow: hidden;
+}
+
+  .newsRight{
+    font-size: .4rem;
+}
+  .newsRight .userimg{
+    overflow: hidden;
+    border-radius: 50%;
+    float:right;
+    cursor: pointer;
+}
+ .newsRight .userimg img{
+     width:1rem;
+     height:0.933rem;
+     border-radius: 50%;
+ }
+  .newsRight .aboutLabelClassify{
+    margin-bottom: 0.227rem;
+    position: relative;
+    height:.32rem;
+}
+  .newsRight .aboutLabelClassify a{
+    float: left;
+    padding:0 0.16rem;
+    height:.32rem;
+    line-height: .32rem;
+    color:#6f98b8;
+    background: #e8efff;
+    margin-right: 0.133rem;
+}
+  .newsRight .aboutLabelClassify a.revamp{
+    color:#6f98b8;
+    background: #fff;
+    padding:0;
+}
+
+  .newsRight.titleQuestion{
+    margin-left:0;
+}
+  .newsRight ol{
+}
+  .newsRight ol li{
+    border-bottom:1px solid #DBDCDC;  
+    padding:0.28rem 0;
+}
+  .newsRight ol li:last-child{
+    border-bottom:none; 
+    padding:0.28rem 0 0.053rem 0;
+}
+  .newsRight .userName{
+    line-height: 0.667rem;
+    color:#7ab6f4;
+    font-size: .32rem;
+}
+  .newsRight .userName span{
+    color:#4a9af1; 
+}
+  .newsRight .userName i{
+    color:#9c9c9c;
+    font-style:normal;
+}
+  .newsRight p{
+    line-height: .533rem;
+    color:#8b8b8d;
+    font-size: .4rem;
+    width:85%;
+    margin-top:0.01rem;
+}
+ .newsRight p img{
+    width:95%;
+}
+  .newsRight h3 a{
+    display: block;
+    line-height: .933rem;
+    color:#8c8c8c;
+    font-size: .36rem;
+}
+  .newsRight .footerMore{
+    margin-top:0.16rem;
+    line-height: 0.36rem;
+    height:0.36rem;/*
+    overflow: hidden;*/
+    color:#b5b5b5;
+}
+  .newsRight .footerMore li{
+     float: left;
+     font-size:0.32rem;
+     margin-right:.4rem;
+     cursor: pointer;
+     overflow: hidden;
+     border-bottom:none;
+     padding:0;
+     height:0.36rem;
+ }
+ .newsRight .footerMore li img{
+     float:left;
+     width:0.293rem;
+     height:0.32rem;
+     margin-right:0.133rem;
+ }
+ .newsRight .footerMore li span{
+     float:left;
+     height:0.32rem;
+ }
+  .newsRight .footerMore li:last-child{
+    padding:0;
+}
+  .newsRight .footerMore li div{
+    float: left;
+    margin-right:0.053rem;
+    width:0.147rem;
+    height:.32rem;
+    background: url(../../Images/sprites.png) no-repeat;
+}
+  .newsRight .footerMore li.packUp{
+    float:right;
+    width:.667rem;
+    height:.32rem;
+    line-height: .32rem;
+    text-align:center;
+    border-radius: 0.08rem;
+    background:#9bc6f5;
+    color:#fff;
+    cursor: pointer;
+    display: none;
+}
+  .newsRight .footerMore li.packUpFix{
+    position:fixed;
+    width:.667rem;
+    height:.32rem;
+    line-height: .32rem;
+    text-align:center;
+    border-radius: 0.08rem;
+    background:#9bc6f5;
+    color:#fff;
+    cursor: pointer;
+    display: none;
+    bottom: 0.16rem;
+    right:4.973rem;
+}
+  .newsLeft .agree{
+    background: #8ebd55;
+}
+
+
+
+  .newsRight .agreeConntent img{
+    float:right;
+}
+/* 案例开始 */
+
+ h1.Answer{
+    width:100%;
+    height:.56rem;
+    line-height: .56rem;
+    color:#000;
+    font-size:.213rem;
+    margin-top:0.533rem;
+    padding-left: 0;
+}
+ select{
+    float:right;
+    width:80.053rem;
+    height:.32rem;
+    line-height: .32rem;
+    color:#b4b4b6;
+    border:1px solid #ededed;
+    outline: none;
+    font-size:0.16rem;
+    margin-top:0.12rem;
+}
+ select option{
+    width:100%;
+    height:100%;
+    line-height: .32rem;
+    border:1px solid #ededed;
+    outline: none;
+}
+

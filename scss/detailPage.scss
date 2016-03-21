@@ -1,0 +1,41 @@
+html{font-size:75px;}
+header{
+  width:7.667rem;
+  height:1.333rem;
+  background:#489af0;
+  color:#fff;
+  h1{
+      float:left;
+      width:2.4rem;
+      height:1.333rem;
+      vertical-align: middle;
+      text-align: center;
+      img{
+        width:10.373rem;
+        height:0.553rem;
+        vertical-align: middle;
+      }
+    }
+  nav{
+    float:left;
+    width:218px;
+    height:.4rem;
+    line-height:.4rem;
+    margin:35px 0.133rem;
+    a{
+      float:left;
+      padding:0 .32rem;
+
+    }
+  }
+  div{
+    float:left;
+    padding:35px 0 0 0;
+    height:35px;
+    line-height:35px;
+    img{
+      float:left;
+      margin:0 .187rem 0 83px;
+    }
+  }
+}

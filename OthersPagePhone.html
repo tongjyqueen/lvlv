@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>他人主页</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/OthersPagePhone.css" />
+    <script src="js/zepto.min.js"></script>
+    <!--<script src="../js/jquery-1.7.2.js"></script>-->
+    <script src="js/common.js"></script>
+    <script src="js/OthersPagePhone.js"></script>
+</head>
+<body>
+    <header>
+    <h1><img src="images/222.png" alt=""/><span></span></h1>
+    <!--<nav><a href="login.html" target="_self">登录</a><span>|</span><a href="register.html" target="_self">注册</a></nav>-->
+    <div><img src="images/11.png" alt=""/><a href="javascript:;" target="_self" onclick="openApp()"  id="aOpenApp">打开应用
+    </a></div>
+</header>
+
+    <section class="describe">
+        <div class="userImg">
+            <div>
+                <img src="images/othersueserimg.gif" alt="" class="Image" />
+            </div>
+        </div>
+        <h1>
+            <span class="UserName">窗前明月光</span>
+            <img src="images/woman.png" alt="" class="Gender" />
+        </h1>
+        <p class="descript">提供最专业的法律咨询服务，欢迎咨询！</p>
+        <div class="otherHome">
+            <a href="javascript:;">
+                <img src="images/otherhomepage_fouce.png" alt="" onclick="openApp()" /></a>
+            <a href="javascript:;">
+                <img src="images/otherhomepage_letter.png" alt="" onclick="openApp()"/></a>
+
+        </div>
+        <div class="Being">
+            <a href="javascript:;">
+                <img src="images/myhomepage_agree.png" alt="" /><span>被赞同</span><i id="focusid">77</i></a>
+            <a href="javascript:;">
+                <img src="images/myhomepage_collect.png" alt="" /><span>被收藏</span><i id="collectid"></i></a>
+            <a href="javascript:;">
+                <img src="images/myhomepage_share.png" alt="" /><span>被分享</span><i id="shareid"></i></a>
+
+        </div>
+        <ul>
+            <li>
+                <p class="count" id="aid">8</p>
+                <p>回答</p>
+            </li>
+            <span id="aid"></span>
+            <li>
+                <p class="count" id="fid">20</p>
+                <p>关注</p>
+            </li>
+            <span></span>
+            <li>
+                <p class="count" id="fansid">50</p>
+                <p>粉丝</p>
+            </li>
+            <span></span>
+            <li>
+                <p class="count" id="tid">112</p>
+                <p>提问</p>
+            </li>
+        </ul>
+    </section>
+    <section class="data">
+        <dl>
+            <dt>公司</dt>
+            <dd class="Company" id="company">上海海魄</dd>
+        </dl>
+        <dl>
+            <dt>职务</dt>
+            <dd class="Position">.NET高级工程师</dd>
+        </dl>
+        <dl>
+            <dt>联系方式</dt>
+            <dd class="TelPhone">12364554678</dd>
+        </dl>
+
+    </section>
+    <ul class="list">
+        <li class="listAnswer">
+            <h3><a href="javascript:;">窗前明月光</a><i>15.10.30</i><span>回答了</span></h3>
+            <h2><a href="javascript:;">对于法律援助您是怎么看的？对于法律援助您是怎么看的？对于法律援助您是怎么看的？对于法律援助您是怎么看的？</a></h2>
+            <p>法律援助充分体现了社会公平性，对建设法治社会有着极大的催进作用。。。法律援助充分体现了社会公平性，对建设法治社会有着极大的催进作用。。。法律援助充分体现了社会公平性，对建设法治社会有着极大的催进作用。。。</p>
+            <ol>
+                <li><span>赞同</span><i>100</i></li>
+                <li><span>评论</span><i>12</i></li>
+                <li><span>收藏</span><i>188</i></li>
+            </ol>
+        </li>
+        <li class="listAnswer">
+            <h3><a href="javascript:;">窗前明月光</a><i>15.10.30</i><span>回答了</span></h3>
+            <h2><a href="javascript:;">对于法律援助您是怎么看的？</a></h2>
+            <p>法律援助充分体现了社会公平性，对建设法治社会有着极大的催进作用。。。</p>
+            <ol>
+                <li><span>赞同</span><i>100</i></li>
+                <li><span>评论</span><i>12</i></li>
+                <li><span>收藏</span><i>188</i></li>
+            </ol>
+        </li>
+    </ul>
+<div id="CoverLayer">
+    <div id="PromptBox">
+        <h2 id="Friendship">
+                    选择打开方式
+            <img src="images/X.png" id="Img" />
+        </h2>
+        <div id="PromptBoxText">
+          <a href="#" title="" id="yes">在律律中打开</a>
+          <a href="#" title="" id="no">下载律律，并打开</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
